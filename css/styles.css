@@ -1,0 +1,191 @@
+*{
+	padding: 0;
+	margin: 0;
+	-wbkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #CD2625;
+  border-radius: 0 0 2px 2px;
+  border: 0;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+#logo-img {
+  margin: 15px 15px 10px 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* School name */
+  font-family: 'Rockwell', sans-serif;
+  color: #fff;
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: -2px;
+  margin-bottom: -25px;
+  line-height: .75;
+}
+.navbar-brand h4 { /* School sub-name */
+  font-family: 'Rockwell', sans-serif;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list ul {
+	list-style: none;
+	overflow: hidden;
+}
+#nav-list a {
+  background: none; 
+  border-right: solid 1px #CD2625;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  font-family: 'Rockwell', sans-serif;
+  font-size: 1.4em;
+  font-variant: small-caps;
+  padding: 5px 10px;
+  margin-top: 25px;
+  margin-left: -2px;
+  text-align: center;
+  text-decoration: none;
+
+  -webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+}
+#nav-list a:hover, nav li.active a {
+   background: #fff;
+   border: 1px solid #CD2625;
+   border-radius: 3px;
+   color: #CD2625;
+   padding: auto;
+}
+/*---End Navigation --*/
+.clearfix {
+	clear: both;
+}
+/*--- Start Image Slider --*/
+.slider {
+	max-width: 1920px;
+	box-shadow: 1% 2% 5% 0 rgba(0, 0, 0, 0.07);
+}
+.slider1 img {
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid none;
+	border-radius: 0 0 2px 2px;
+	opacity: 0.9;
+}
+.slider .bx-wrapper .bx-controls-direction a {
+	outline: 0 none;
+	position: absolute;
+	text-indent: -9999px;
+	top: 40%;
+	height: 71px;
+	width: 40px;
+	z-index: -1;
+	transition: all 0.7s;
+}
+.slider .bx-wrapper:hover .bx-controls-direction a {
+	z-index: 5;
+}
+.slider .bx-wrapper .bx-prev {
+	background: #FCEBB6 url("http://www.w3newbie.com/wp-content/uploads/left-arrow.png") no-repeat 8px 13px;
+	left: 0px;
+}
+.slider .bx-wrapper .bx-prev:hover {
+	background: #FCEBB6 url("http://www.w3newbie.com/wp-content/uploads/left-arrow.png") no-repeat 8px 18px;
+}
+.slider .bx-wrapper .bx-next {
+	background: #FCEBB6 url("http://www.w3newbie.com/wp-content/uploads/right-arrow.png") no-repeat 10px 12px;
+}
+.slider .bx-wrapper .bx-next:hover {
+	background: #FCEBB6 url("http://www.w3newbie.com/wp-content/uploads/right-arrow.png") no-repeat 10px 17px;
+}
+/*--- End Image Slider --*/
+/*---Start Footer --*/
+.col-sm-4 {
+	text-align: center;
+}
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #CD2625;
+	border-top: 0;
+	color: #fff;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+.footer-contact {
+	text-align: center;
+}
+.social {
+	list-style-type: none;
+	margin: 3% 0;
+	padding: 0;
+}
+.social li {
+	display: inline-block;
+}
+.social i {
+	color: #fff;
+	font-size: 2.2em;
+	padding: 8%;
+}
+.social i:hover {
+	color: #999;
+}
+.google-maps { /* Specific styling that is for Google Maps or Youtube with an iframe to make it so it's responsive */
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+.footer-links {
+	list-style-type: none;
+}
+.footer-links a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer-links a:hover {
+	color: #999
+}
+/*---End Footer --*/
+.footer-copyright {
+	text-align: center;
+	font-size: 1em;
+	color: #888;
+	font-family: 'Rockwell', sans-serif;
+}
