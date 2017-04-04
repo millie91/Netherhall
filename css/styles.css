@@ -28,19 +28,21 @@ body {
 .navbar-brand h1 { /* School name */
   font-family: 'Rockwell', sans-serif;
   color: #fff;
-  font-size: 1.6em;
+  font-size: 3em;
   font-weight: bold;
   letter-spacing: 3px;
-  margin-top: -2px;
+  margin-top: -5px;
   margin-bottom: -25px;
   line-height: .75;
 }
 .navbar-brand h4 { /* School sub-name */
   font-family: 'Rockwell', sans-serif;
-  color: #fff;
-  font-size: 0.9em;
+  color: #CD2625;
+  margin-top: 5px;
+  font-size: 1.4em;
   font-weight: bold;
   line-height: .75;
+  letter-spacing: 1.5px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -75,11 +77,8 @@ body {
 	transition: background 0.5s ease;
 }
 #nav-list a:hover, nav li.active a {
-   background: #fff;
-   border: 1px solid #CD2625;
-   border-radius: 3px;
-   color: #CD2625;
-   padding: auto;
+   color: #999;
+
 }
 /*---End Navigation --*/
 .clearfix {
