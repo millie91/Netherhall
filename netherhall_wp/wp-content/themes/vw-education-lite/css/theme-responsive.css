@@ -1,0 +1,248 @@
+/* Mobile Portrait View */
+
+@media screen and (max-width:479px) {
+
+*{box-sizing:border-box;}
+#slider .top-bar { padding:0 20px; top:35px;}
+#slider .top-bar h1 { font-size:25px; padding-bottom:25px;}
+#slider .top-bar a{ font-size:14px; padding:8px 20px; margin-top:0; width:auto;}
+.container { width:auto; padding:0 20px;}
+.header { width:100%; padding:28px 20px; position:inherit !important;}
+.logo { float:none; text-align:center;}
+#services-box { width:auto; display:block; margin-left:0; margin-bottom:20px; padding:20px;}
+.service-image,.service-text {text-align:center; width:100%; display:block; margin-left:0;padding:20px;}
+.blogposts { width:auto; display:block; margin-bottom:30px;}
+.aligner{ width:93%;}
+.top-bar{text-align:center;}
+.copyright-wrapper .inner{ width:100%;}
+.footer-menu, .copyright{ float:none; text-align:center; margin-bottom:10px;}
+.sicons { width:auto;}
+.footer, .copyright { width:auto; padding:0 20px;}
+.copyright-txt, .design-by { text-align:center; float:none;}
+
+/* ------ Extra ------ */
+.one_half{ width:100%; padding:0 10px;}
+.message-thumb{ width:100%; height:inherit !important}
+.toggle{display:block;}
+.toggle a{width:100%; color:#ffffff; background:url(../images/mobile_nav_right.png) no-repeat right center #000000; padding:10px 10px; margin-top:20px; font-size:16px;}
+.toggle a:hover{ color:#ffffff !important;}
+.toggle a.active{color:#ffffff;}
+.nav{display:table;}
+.header .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+.nav ul{ width:100%; float:none !important; margin-top:0;}
+.nav ul li{ display:table; float:left; text-align:left;}
+.nav ul li a{padding:5px 10px; display:table; color:#ffffff !important;}
+.nav ul li a:hover{color:#ff8a00;}
+.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+.nav ul li ul li a:before{content:"\00BB \00a0";}
+.nav ul li ul li a{padding-left:20px !important;}
+.nav ul li ul li ul li a{padding-left:30px !important;}
+.header .header-inner{ width:100%; padding:15px 0;}
+.header .header-inner .logo{ float:none;}
+#slider .top-bar p{ display:none;}
+section{ padding:40px 0;}
+.menu-bar .nav ul li {width: 100%;display: table;text-align: left;float: left;}
+.contact-call-email {padding: 12px 14px;float:none;}
+.social-media {padding-right: 44%;}
+
+
+
+
+
+/* --------- Pages ------- */
+.content-area{ width:auto; margin:0 20px; padding:50px 0;}
+.site-main{ width:auto; margin:0; padding:0; float:none;}
+#sidebar{ width:auto; margin:60px 0 0; padding:0; float:none;}
+.nivo-caption{ top:0 !important; width:100% !important; left:0 !important;}
+#slider .top-bar{ top:24px !important; padding-bottom:17px;}
+#slider .top-bar h2{ font-size:17px !important; padding-bottom:25px !important; line-height:20px;}
+#slider .top-bar h4{ font-size:11px !important;}
+#slider .top-bar a.read-more{ display:none;}
+a.contact{ margin-top:5px !important; font-size:12px !important;}
+.nivo-directionNav a{ top:34% !important;}
+#aboutsec .cont-fix{ width:auto; float:none; padding:70% 0 60px;}
+#contactform_main .leftdiv, #contactform_main .rightdiv{ width:auto; float:none;}
+.one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .four_fifth{ float:none; position:inherit !important;}
+.footer-col{ width:100%; margin-bottom:20px;}
+.footer-col .foot-post .foot-post-content{ width:195px;}
+h2.section-title{ margin-bottom:36px;}
+.who-we .one_half.last_column{ margin-top:50px;}
+.nivo-controlNav, #slider .slide-cap{ display:none;}
+.grey-strip{ font-size:15px; text-align:center; padding-bottom:30px;}
+.grey-strip p{ float:none;  margin-bottom	:15px;}
+.grey-strip a.buy-button{ float:none;}
+.clients img{ width:auto;}
+.footer-strip .footer-strip-title, .footer-strip .footer-strip-social{ float:none; text-align:center;}
+.footer-strip .footer-strip-social .social-icons a{ display:inline-table;}
+.services-box{ width:90%; float:none; margin:0 auto 15px; display:block;}
+.header .logo a{font-size:0.5em;}
+.services .hey-title{font: 700 3em 'PT sans';}
+h1.entry-title, h1.page-title{line-height:100%;}
+.alignleft, img.alignleft{float:none;}
+#comment{width:97%;}
+.dashicons-twitter {border: 1px solid #FF5722;background-color: #FF5722;width: 50%;height: auto;}
+.dashicons-facebook-alt {border: 1px solid #4CAF50;background-color: #4CAF50;
+    width: 50%; height: auto;float: left;}
+
+}
+
+/* Mobile Landscape View */
+
+@media screen and (max-width:719px) and (min-width:480px) { 
+*{box-sizing:border-box;}
+#slider .top-bar { padding:0 20px; top:60px;}
+#slider .top-bar h1 { font-size:30px; padding-bottom:5px;}
+#slider .top-bar a{ font-size:18px; padding:8px 20px; margin-top:20px;}
+.container { width:auto; padding:0 20px;}
+.top-bar{text-align:center;}
+.header { padding:28px 20px; position:inherit !important;}
+.logo { float:none; text-align:center;}
+#services-box { width:268px; display:block; margin:0 auto 20px; float:none; padding:20px;}
+.service-image,.service-text {text-align:center; width:100%; display:block; margin-left:0;padding:20px;}
+.blogposts { width:auto; display:block; margin-bottom:30px;}
+.sicons { width:auto;}
+.footer, .copyright { width:auto; padding:0 20px;}
+.copyright-txt, .design-by { text-align:center; float:none;}
+
+/* ------ Extra ------ */
+.one_half{ width:100%; padding:0 10px;}
+.message-thumb{ width:100%; height:inherit !important}
+.toggle{display:block !important;}
+.toggle a{width:100%; color:#ffffff; background:url(../images/mobile_nav_right.png) no-repeat right center #000000; padding:10px 10px; margin-top:20px; font-size:16px;}
+.toggle a:hover{color:#ffffff;}
+.toggle a.active{color:#ffffff;}
+.nav{display:none;}
+.header .nav{float:none; margin:0; position:relative; overflow-x:hidden; }
+.header .nav ul{background:#000000; color:#000; width:100%; float:none !important; margin-top:0;}
+.header .nav ul li{border-top:1px #303030 solid; display:block; float:none; text-align:left;}
+.nav ul li a{padding:5px 10px; display:block; color:#000;}
+.nav ul li a:hover{color:#ff8a00;}
+.nav ul li ul, .nav ul li ul ul{ display:block !important;}
+.nav ul li ul li a:before{content:"\00BB \00a0";}
+.nav ul li ul li a{padding-left:20px !important;}
+.nav ul li ul li ul li a{padding-left:30px !important;}
+.header .header-inner{ width:100%; padding:15px 0;}
+.header .header-inner .logo{ float:none;}
+a.arrow-down, #slider .top-bar p{ display:none;}
+#prevslide, #nextslide{ top:0;}
+.copyright-wrapper .inner{ width:100%;}
+.footer-menu, .copyright{ float:none; text-align:center; margin-bottom:10px;}
+section{ padding:40px 0;}
+
+/* --------- Pages ------- */
+.content-area{ width:auto; margin:0 20px; padding:50px 0;}
+.site-main{ width:auto; margin:0; padding:0; float:none;}
+#sidebar{ width:auto; margin:60px 0 0; padding:0; float:none;}
+.nivo-caption{ top:0 !important; width:80% !important; height:90%;}
+#slider .top-bar{ top:35px !important; padding-bottom:32px;}
+#slider .top-bar h2{ font-size:24px !important; padding-bottom:10px !important; line-height:35px;}
+#slider .top-bar h4{ font-size:17px !important;}
+#slider .top-bar a.read-more{ display:none;}
+a.contact{ margin-top:5px !important; font-size:12px !important;}
+.nivo-directionNav a{ top:39% !important;}
+.bx-controls-direction{ display:none;}
+#aboutsec .cont-fix{ width:auto; float:none; padding:70% 0 60px;}
+#contactform_main .leftdiv, #contactform_main .rightdiv{ width:auto; float:none;}
+.one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .four_fifth{ float:none; position:inherit !important;}
+h2.section-title{ margin-bottom:38px;}
+.who-we .one_half.last_column{ margin-top:50px;}
+.footer-col{ width:100%; margin-bottom:20px;}
+.footer-col .foot-post .foot-post-content{ width:195px;}
+.clients img{ margin-bottom:20px;}
+.aligner{ width:93%;}
+.top-bar .top-left{ padding:15px 0;}
+.top-bar .top-left, .top-bar .top-right{ float:none; text-align:center; margin-top:0;}
+.top-right .social-icons a{ display:inline-table; float:none; height:45px; width:37px; border-top:1px solid #727171;}
+.nivo-controlNav, #slider .slide-cap{ display:none;}
+.grey-strip{ font-size:15px; text-align:center; padding-bottom:30px;}
+.grey-strip p{ float:none;  margin-bottom:25px;}
+.grey-strip a.buy-button{ float:none;}
+.clients img{ width:auto; display:table-cell;}
+.footer-strip .footer-strip-title, .footer-strip .footer-strip-social{ float:none; text-align:center;}
+.footer-strip .footer-strip-social .social-icons a{ display:inline-table;}
+.services-box{ width:65%; float:none; margin:0 auto 15px; display:block;}
+
+.menu-bar .nav ul li {width: 100%;display: table;text-align: left;float: left;}
+.dashicons-twitter {border: 1px solid #FF5722;background-color: #FF5722;width: 50%;height: auto;}
+.dashicons-facebook-alt {border: 1px solid #4CAF50;background-color: #4CAF50;
+    width: 50%; height: auto;float: left;}
+
+}
+
+
+@media screen and (max-width:899px) and (min-width:320px) { 
+h2.section-title { line-height:48px; font-size:35px !important;}
+.fourbox{ width:auto; float:none; margin:0 0 20px 0; padding-bottom:20px;}
+.cat_comments{ height:auto;}
+#contact .column-2, #contact .column-2.last_column{ width:100%; float:none; margin:0 0 20px 0;}
+#aboutsec .last_column{ width:100%; margin-right:0;}
+.menu-bar .nav ul li {sdisplay: table;text-align: left;float: left;}
+.dashicons-facebook-alt {border: 1px solid #4CAF50 !important;background-color: #4CAF50; width: 50% !important; height: auto !important;float: left !important;}
+ .dashicons-twitter {border: 1px solid #FF5722;background-color: #FF5722;width: 50% !important;;height: auto !important;}
+}
+
+
+/* Tablet View */
+
+@media screen and (max-width:999px) and (min-width:720px) { 
+*{box-sizing:border-box;}
+.container { width:auto; padding:0 20px;}
+.header { padding:25px 1%;}
+.aligner{ width:93%;}
+#services-box { width:47.0%; display:inline-block; margin-bottom:20px; margin-left:2% !important; padding:20px;}
+.blogposts { width:31%; display:inline-block; margin-bottom:30px;}
+.sicons { width:94%; margin:auto;}
+.footer, .copyright { width:auto; padding:0 20px;}
+.cat_comments .cat, .cat_comments .comnt{ font-size:10px;}
+
+
+/* ------ Extra ------ */
+.message-thumb{ width:100%; height:inherit !important}
+.header .header-inner{ width:100%; padding:15px 0;}
+.header .header-inner .logo{ float:none; text-align:center;}
+
+/* --------- Pages ------- */
+.content-area{ width:auto; margin:0 20px; padding:50px 0;}
+.site-main{ width:60%; margin:0; padding:0; float:left;}
+#sidebar{ width:35%; margin:0; padding:0; float:right;}
+.nivo-caption{ top:45% !important; width:41% !important;}
+#slider .top-bar{ top:80px !important; margin-bottom:0;}
+a.read-more, .common_btn{ margin-top:2px;}
+#slider .top-bar p{ font-size:12px !important; line-height:17px !important;}
+#slider .top-bar h2{ font-size:25px !important; padding-bottom:10px !important; line-height:34px;}
+#slider .top-bar h4{ font-size:17px !important;}
+a.contact{ margin-top:15px !important; font-size:18px !important;}
+.nivo-directionNav a{ top:42% !important;}
+#aboutsec .last_column{ width:100%; margin-right:0;}
+#aboutsec .cont-fix{ width:auto; float:none; padding:70% 0 60px;}
+.fourbox{ width:44.5%; margin:0 5% 5% 0;}
+.bx-controls-direction{ display:none;}
+.copyright-wrapper .inner{ width:95%; margin: auto;}
+.one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .four_fifth{ position:inherit !important;}
+.who-we .one_half.last_column{ margin-top:40px;}
+.footer-col{ margin-right:30px;}
+#slider .slide-cap h4, #slider .slide-cap h2{ font-size:28px !important;}
+#slider .slide-cap h4{ padding-top:4px;}
+#slider .slide-cap{ padding-top:0;}
+.nivo-controlNav{ bottom:-17px !important; left:28px !important;}
+.grey-strip{ font-size:14px;}
+.grey-strip a.buy-button{ font-size:12px;}
+.footer-col h2{ font-size:20px;}
+.dashicons-facebook-alt {border: 1px solid #4CAF50 !important;background-color: #4CAF50; width: 50% !important; height: auto !important;float: left !important;}
+ .dashicons-twitter {border: 1px solid #FF5722;background-color: #FF5722;width: 50% !important;;height: auto !important;}
+}
+
+@media screen and (min-width: 1000px) {
+.header .header-inner .nav ul li ul li{display:block; position:relative; float:none; }
+.header .header-inner .nav ul li ul li a{color:#000; display:block; padding-top:10px; padding-bottom:10px; border-bottom:1px #313131 solid;}
+}
+
+@media screen and (min-width:1000px) and (max-width:1159px){
+	.header .header-inner, .container, .copyright-wrapper .inner, .aligner{ width:95%;}
+	.nivo-caption{ top:2% !important; height:auto !important;}
+	#aboutsec .cont-fix{ width:auto !important;}
+	.cat_comments .cat{ width:48%;}
+	.footer-col{ margin-right:43px;}
+	.footer-col .foot-post .foot-post-content{ width:224px;}
+	.nivo-controlNav{ bottom:-7px !important;}
+}
